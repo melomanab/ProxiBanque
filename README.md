@@ -1,16 +1,15 @@
 # Mode d'emploi de l'application Java ProxiBanqueSI
 
 ## Pré-requis:
-	    - Installer le JDK 9 sur la machine cible, 
-			-Téléchargé depuis: http://www.oracle.com/technetwork/java/javase/downloads/index.html
-	    - Machine cible dotée d'un systeme d'exploitation Windows.
+- Installer le JDK 9 sur la machine cible,
+  - Téléchargé depuis: http://www.oracle.com/technetwork/java/javase/downloads/index.html
+- Machine cible dotée d'un systeme d'exploitation Windows.
 
 ## Execution :
-	    - Copier le fichier .jar (ProxiBanqueSI.jar) en local sur la machine,
-	    - Copier le path du répertoire parent contenant le fichier .jar,
-		- Ouvrir un invite de commande (cmd.exe)
-	    - Taper "cd <path>" pour changer le repertoire de travail sur le répertoire parent,
-		  puis pressez entrée (avec <path> le path copié precedemment),
+- Copier le fichier .jar (ProxiBanqueSI.jar) en local sur la machine,
+- Copier le path du répertoire parent contenant le fichier .jar,
+- Ouvrir un invite de commande (cmd.exe)
+- Taper "cd <path>" pour changer le repertoire de travail sur le répertoire parent, puis pressez entrée (avec <path> le path copié precedemment),
 	      
 			Ex: "cd C:\formationJava\livraison".
 
