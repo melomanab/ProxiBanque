@@ -1,20 +1,20 @@
 # Mode d'emploi de l'application Java ProxiBanqueSI
 
 ## Pré-requis:
-- Installer le JDK 9 sur la machine cible,
+- **Installer le JDK 9** sur la machine cible,
   - Téléchargé depuis: *http://www.oracle.com/technetwork/java/javase/downloads/index.html*
 - Machine cible dotée d'un systeme d'exploitation Windows.
 
 ## Execution :
-- Copier le fichier **ProxiBanqueSI.jar** en local sur la machine
-- Ouvrir un **invite de commande (cmd.exe)** et changer le repertoire courant sur le répertoire parent 
+- **Copier le fichier .jar** (*ProxiBanqueSI.jar*) en local sur la machine
+- Ouvrir un **invite de commande (cmd.exe)** et changer le repertoire courant sur le répertoire parent:
   - Copier le path du répertoire parent contenant le fichier .jar
   - Taper `cd path` puis pressez entrée (avec le path copié precedemment)
 - Taper `java -jar ProxiBanqueSI.jar` et presser entrée. 
-  *La Demo Java ProxiBanqueSI s'execute sur l'invite de commandes*
+  - *La Demo Java ProxiBanqueSI s'execute sur l'invite de commandes*
 
 ## Consulter la documentation JavaDoc: 
-- Double-cliquer sur le fichier *index.html* se trouvant dans le repertoire **doc** du repertoire parent
+- Double-cliquer sur le fichier *index.html* se trouvant dans le repertoire *doc* du repertoire parent
 		
 ## Consulter les diagrammes UML: 
 - Double-cliquer sur le fichier  *UML_UCD_ProxiBanqueSI_ServiceGestionClientele_1.0.html* se trouvant dans le 
@@ -28,18 +28,18 @@
 ## Description de la Demo Java ProxiBanqueSI:	
   ### Menu principal
 - Adressé à un **conseiller client**
-      *L'etat [Nom, Prenom] du conseiller actuel est: [MBIANDOU Douglas]*
-			*Une liste de clients est rentrée en dur dans l'application, simulant le chargement d'une base de données Clients.
-			Elle contient un total de 9 clients dont 2 fortunés.*
-- Affiche un message de bienvenue avec les **options** suivantes:
-			*0-Afficher la liste de clients
-			1-Creer un client
-			2-Modifier les informations d'un client
-			3-Lire les informations d'un clien
-			4-Supprimer un client
-			5-Faire un virement compte à compte
-			6-Proposer des placements (service reservé aux clients fortunés)
-			7-Quitter*
+     - *L'etat [Nom, Prenom] du conseiller actuel est: [MBIANDOU Douglas]*
+     - *Une liste de clients est rentrée en dur dans l'application, simulant le chargement d'une base de données Clients.
+	- Elle contient un total de 9 clients dont 2 fortunés.*
+- Affiche un **message de bienvenue** avec les **options** suivantes:
+	- *0-Afficher la liste de clients*
+	- *1-Creer un client*
+	- *2-Modifier les informations d'un client*
+	- *3-Lire les informations d'un client*
+	- *4-Supprimer un client*
+	- *5-Faire un virement compte à compte*
+	- *6-Proposer des placements (service reservé aux clients fortunés)*
+	- *7-Quitter*
   ### Option <0-Afficher la liste de clients>:
 - Affiche le conseiller client ainsi que la liste de clients à sa charge
   ### Option <1-Creer un client>:
@@ -63,7 +63,7 @@
 - Demande de selectionner le client titulaire du compte beneficiaire, puis le compte beneficiaire lui même (courant/epargne)
 - Affiche un recapitulatif de la demande de virement
 - Affiche si le virement a été refusé ou validé
-  ### Option <6-Proposer des placements (service servé aux clients fortunés>:
+  ### Option <6-Proposer des placements (service servé aux clients fortunés)>:
 - Affiche les clients fortunés de la liste de clients, les seuls à pouvoir beneficier des services de gestion de patrimoine
   ### Option <7-Quitter>:
 - Permet de quitter l'application
