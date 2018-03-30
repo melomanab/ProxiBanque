@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"domaine"},{"l":"lanceur"},{"l":"service"},{"l":"test"}]
